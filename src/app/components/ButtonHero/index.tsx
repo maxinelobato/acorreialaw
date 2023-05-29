@@ -3,7 +3,7 @@ export default function ButtonHero () {
     <>
       <a
         href='https://api.whatsapp.com/send?phone=5511913541327&text=Ol%C3%A1%2C%20Dr.%20Anderson!%20Vim%20pelo%20site.%20Podemos%20conversar%3F%20'
-        className='flex drop-shadow-lg items-center justify-center gap-x-2 py-4 px-6 text-white font-medium bg-stone-950 duration-150 hover:-translate-x-0 hover:duration-300 hover:scale-110 hover:text-white hover:bg-black/75 hover:transition-all rounded-lg md:inline-flex'
+        className='flex drop-shadow-lg items-center justify-center gap-x-2 py-4 px-6 text-white font-medium bg-stone-950 duration-150 hover:-translate-x-0 hover:duration-300 hover:scale-110 hover:transition-all hover:text-white hover:bg-black/75 rounded-lg md:inline-flex'
         target='_blank'
         id="click-buttonhero"
       >
