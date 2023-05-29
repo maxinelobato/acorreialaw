@@ -3,7 +3,7 @@ import Footer from '../Footer'
 export default function AboutAnderson () {
   return (
     <>
-      <div className='bg-gradient-to-t from-stone-700 to-white'>
+      <div className='bg-gradient-to-t from-stone-950 to-white'>
         <section className='py-6'>
           <div className='max-w-screen-xl mx-auto px-4 gap-x-12 items-center justify-between lg:flex md:px-4'>
             <div className='mt-6 gap-12 sm:mt-0 md:flex lg:block'>

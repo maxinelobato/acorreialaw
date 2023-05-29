@@ -1,6 +1,7 @@
 'use client'
 
 import Image from 'next/image'
+import GoogleReviews from '../GoogleReviews'
 export default function AboutWork () {
   const testimonials = [
     {
@@ -121,47 +122,51 @@ export default function AboutWork () {
 
   return (
     <>
-      <div className='max-w-screen-xl mx-auto mb-6 px-4 py-8 md:px-8'>
-        <div className='mx-auto text-center'>
-          <div className='space-y-5 max-w-4xl mx-auto text-center px-4 py-8'>
-            <h1 className='text-4xl text-stone-800 font-extrabold mx-auto md:text-5xl'>
-              O que os clientes estão falando
-              <br />
-              <span className='text-stone-400'>sobre Acorreialaw?</span>
-            </h1>
-          </div>
-          <div className='mb-6'>
-            <ul className='grid items-center gap-6 grid-cols-2 sm:grid-cols-2 lg:grid-cols-3'>
-              {testimonials.map((item, idx) => (
-                <li
-                  key={idx}
-                  className='bg-black/5 backdrop-blur-lg rounded-xl border shadow-md'
-                >
-                  <div className='p-4'>{item.icon}</div>
-                  <figure>
-                    <blockquote>
-                      <p className='text-stone-950 font-semibold px-4 py-1 text-sm sm:break-after-all sm:text-lg'>
-                        {item.quote}
-                      </p>
-                    </blockquote>
-                    <div className='flex flex-col items-center gap-x-4 p-4 mt-6 bg-stone-700 rounded-b-lg sm:flex-row'>
-                      <Image
-                        src={item.avatar}
-                        alt='Imagem'
-                        width={300}
-                        height={300}
-                        className='w-8 h-8 rounded-full drop-shadow-lg sm:w-8 sm:h-8'
-                      />
-                      <div>
-                        <span className="text-stone-200 font-semibold text-sm sm:break-after-all sm:text-lg">
-                          {item.name}
-                        </span>
+      <div className="hero bg-no-repeat bg-fixed bg-cover bg-[url('/img/googlereviewsmagick.webp')] loading">
+        <div className='max-w-screen-xl mx-auto mb-6 px-4 py-8 md:px-8'>
+          <div className='mx-auto text-center'>
+            <div className='space-y-5 max-w-4xl mx-auto text-center px-4 py-8'>
+              <h3 className='text-stone-950 font-semibold'>Nossos clientes</h3>
+              <h1 className='text-4xl text-stone-800 font-extrabold mx-auto md:text-5xl'>
+                O que os clientes estão falando
+                <br />
+                <span className='text-stone-400'>sobre Acorreialaw?</span>
+              </h1>
+              <GoogleReviews />
+            </div>
+            <div className='mb-6'>
+              <ul className='grid items-center gap-6 grid-cols-2 sm:grid-cols-2 lg:grid-cols-3'>
+                {testimonials.map((item, idx) => (
+                  <li
+                    key={idx}
+                    className='bg-black/5 backdrop-blur-lg rounded-xl border shadow-md'
+                  >
+                    <div className='p-4'>{item.icon}</div>
+                    <figure>
+                      <blockquote>
+                        <p className='text-stone-950 font-semibold px-4 py-1 text-sm sm:break-after-all sm:text-lg'>
+                          {item.quote}
+                        </p>
+                      </blockquote>
+                      <div className='flex flex-col items-center gap-x-4 p-4 mt-6 bg-stone-700 rounded-b-lg sm:flex-row'>
+                        <Image
+                          src={item.avatar}
+                          alt='Imagem'
+                          width={300}
+                          height={300}
+                          className='w-8 h-8 rounded-full drop-shadow-lg sm:w-8 sm:h-8'
+                        />
+                        <div>
+                          <span className='text-stone-200 font-semibold text-sm sm:break-after-all sm:text-lg'>
+                            {item.name}
+                          </span>
+                        </div>
                       </div>
-                    </div>
-                  </figure>
-                </li>
-              ))}
-            </ul>
+                    </figure>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
       </div>

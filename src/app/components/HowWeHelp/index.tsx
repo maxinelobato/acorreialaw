@@ -111,12 +111,10 @@ export default function HowWeHelp () {
           </div>
           <div className='flex-1 mt-5 mx-auto sm:w-9/12 lg:mt-0 lg:w-auto'>
             <Image
-              src='/img/contratos.png'
+              src='/img/contratosmagick.webp'
               width={600}
               height={600}
-              quality={100}
               loading='lazy'
-              className='w-full'
               alt='Image Right'
             />
           </div>
