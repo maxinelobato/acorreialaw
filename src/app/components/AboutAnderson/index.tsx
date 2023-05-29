@@ -15,7 +15,7 @@ export default function AboutAnderson () {
                   Dr. Anderson Bispo Correia está voltado estritamente ao{' '}
                   <span className='text-stone-950'> Direito Contratual</span>
                 </h1>
-                <p className='pb-8 drop-shadow-lg text-stone-800 font-extrabold mx-auto mt-6 text-lg sm:break-after-all'>
+                <p className='pb-8 drop-shadow-lg text-stone-700 font-extrabold mx-auto mt-6 text-lg sm:break-after-all'>
                   Adquirindo experiência ao longo dos mais de 10 anos seja em
                   escritórios de advocacia seja em empresas de pequeno ou de
                   grande porte com objetivo de atender seus clientes de forma
