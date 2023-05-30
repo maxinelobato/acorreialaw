@@ -83,14 +83,15 @@ export default function HowWeHelp () {
         <div className='relative z-10 gap-5 items-center lg:flex'>
           <div className='flex-1 max-w-lg py-5 sm:mx-auto sm:text-center lg:max-w-max lg:text-left'>
             <div className='space-y-5 max-w-4xl mx-auto text-left px-4 py-8'>
-              <h3 className='text-stone-950 font-semibold'>
+              <h1 className='text-stone-950 font-semibold'>
                 Atuamos em todo o Brasil
-              </h3>
-              <h1 className='text-4xl text-stone-800 font-extrabold md:text-5xl'>
-                Nós elaboramos o seu contrato com o objetivo de ajudá-lo a
-                <br />
-                <span className='text-stone-400'>evitar problemas futuros</span>
               </h1>
+              <h2 className='text-4xl text-stone-700 font-extrabold md:text-5xl'>
+                Nós elaboramos o seu contrato com o objetivo de ajudá-lo a{' '}
+                <span className='text-stone-950 underline underline-offset-4 decoration-stone-700'>
+                  evitar problemas futuros
+                </span>
+              </h2>
               <div className='pt-8 max-w-lg lg:max-w-none'>
                 <ul className='space-y-4'>
                   {features.map((item, idx) => (

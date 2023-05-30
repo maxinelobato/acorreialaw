@@ -44,6 +44,9 @@ export default function Footer () {
                 anderson@acorreialaw.com
               </p>
             </div>
+            <div className='p-4 max-w-fit mx-auto rounded-xl shadow-lg bg-black/30 backdrop-blur-sm'>
+              <div className='text-white text-sm'>OAB/SP - 371.054</div>
+            </div>
           </div>
           <div className='text-stone-200 mt-10 py-10 border-t-2 items-center justify-between sm:flex'>
             <p className='text-center'>

@@ -12,7 +12,9 @@ export default function Home () {
       <Suspense>
         <Hero />
         <HowWeHelp />
-        <Cards />
+        <Suspense>
+          <Cards />
+        </Suspense>
         <AboutWork />
         <AboutAnderson />
         <ButtonFloat />

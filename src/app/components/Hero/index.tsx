@@ -56,9 +56,9 @@ export default function Hero () {
           <section>
             <div className='max-w-screen-xl mx-auto px-4 py-4 gap-12 text-gray-600 md:px-8'>
               <div className='space-y-5 max-w-4xl mx-auto text-center'>
-                <h1 className='py-4 text-4xl text-white/80 font-extrabold mx-auto md:text-5xl'>
+                <h1 className='py-4 text-4xl text-white font-extrabold mx-auto md:text-5xl'>
                   Elabore o contrato do seu negócio{' '}
-                  <span className='text-transparent bg-clip-text bg-gradient-to-r from-stone-800 to-stone-700'>
+                  <span className='text-transparent bg-clip-text bg-gradient-to-r from-stone-950 to-stone-800'>
                     com confiança e experiência jurídica na Acorreialaw
                   </span>
                 </h1>

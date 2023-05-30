@@ -7,7 +7,7 @@ export default function AboutWork () {
     {
       icon: (
         <svg
-          className='w-9 h-9 text-gray-300'
+          className='w-9 h-9 text-stone-500'
           viewBox='0 0 35 35'
           fill='none'
           xmlns='http://www.w3.org/2000/svg'
@@ -26,7 +26,7 @@ export default function AboutWork () {
     {
       icon: (
         <svg
-          className='w-9 h-9 text-gray-300'
+          className='w-9 h-9 text-stone-500'
           viewBox='0 0 35 35'
           fill='none'
           xmlns='http://www.w3.org/2000/svg'
@@ -45,7 +45,7 @@ export default function AboutWork () {
     {
       icon: (
         <svg
-          className='w-9 h-9 text-gray-300'
+          className='w-9 h-9 text-stone-500'
           viewBox='0 0 35 35'
           fill='none'
           xmlns='http://www.w3.org/2000/svg'
@@ -64,7 +64,7 @@ export default function AboutWork () {
     {
       icon: (
         <svg
-          className='w-9 h-9 text-gray-300'
+          className='w-9 h-9 text-stone-500'
           viewBox='0 0 35 35'
           fill='none'
           xmlns='http://www.w3.org/2000/svg'
@@ -83,7 +83,7 @@ export default function AboutWork () {
     {
       icon: (
         <svg
-          className='w-9 h-9 text-gray-300'
+          className='w-9 h-9 text-stone-500'
           viewBox='0 0 35 35'
           fill='none'
           xmlns='http://www.w3.org/2000/svg'
@@ -102,7 +102,7 @@ export default function AboutWork () {
     {
       icon: (
         <svg
-          className='w-9 h-9 text-gray-300'
+          className='w-9 h-9 text-stone-500'
           viewBox='0 0 35 35'
           fill='none'
           xmlns='http://www.w3.org/2000/svg'
@@ -126,12 +126,14 @@ export default function AboutWork () {
         <div className='max-w-screen-xl mx-auto mb-6 px-4 py-8 md:px-8'>
           <div className='mx-auto text-center'>
             <div className='space-y-5 max-w-4xl mx-auto text-center px-4 py-8'>
-              <h3 className='text-stone-950 font-semibold'>Nossos clientes</h3>
-              <h1 className='text-4xl text-stone-800 font-extrabold mx-auto md:text-5xl'>
+              <h1 className='text-stone-950 font-semibold'>Nossos clientes</h1>
+              <h2 className='text-4xl text-stone-700 font-extrabold mx-auto md:text-5xl'>
                 O que os clientes estão falando
                 <br />
-                <span className='text-stone-400'>sobre Acorreialaw?</span>
-              </h1>
+                <span className='text-stone-950 underline underline-offset-4 decoration-stone-700'>
+                  sobre Acorreialaw?
+                </span>
+              </h2>
               <GoogleReviews />
             </div>
             <div className='mb-6'>
@@ -139,7 +141,7 @@ export default function AboutWork () {
                 {testimonials.map((item, idx) => (
                   <li
                     key={idx}
-                    className='bg-black/5 backdrop-blur-lg rounded-xl border shadow-md'
+                    className='bg-white/30 backdrop-blur-sm rounded-xl border shadow-lg'
                   >
                     <div className='p-4'>{item.icon}</div>
                     <figure>
@@ -148,7 +150,7 @@ export default function AboutWork () {
                           {item.quote}
                         </p>
                       </blockquote>
-                      <div className='flex flex-col items-center gap-x-4 p-4 mt-6 bg-stone-700 rounded-b-lg sm:flex-row'>
+                      <div className='flex flex-col items-center gap-x-4 p-4 mt-6 bg-black/30 rounded-b-lg sm:flex-row'>
                         <Image
                           src={item.avatar}
                           alt='Imagem'
@@ -157,7 +159,7 @@ export default function AboutWork () {
                           className='w-8 h-8 rounded-full drop-shadow-lg sm:w-8 sm:h-8'
                         />
                         <div>
-                          <span className='text-stone-200 font-semibold text-sm sm:break-after-all sm:text-lg'>
+                          <span className='text-stone-900 font-semibold text-sm sm:break-after-all sm:text-lg'>
                             {item.name}
                           </span>
                         </div>
