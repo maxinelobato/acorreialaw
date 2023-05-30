@@ -7,6 +7,7 @@ export default function ButtonFloat () {
             href='https://api.whatsapp.com/send?phone=5511913541327&text=Ol%C3%A1%2C%20Dr.%20Anderson!%20Vim%20pelo%20site.%20Podemos%20conversar%3F%20'
             style={{ textDecoration: 'none' }}
             target='_blank'
+            aria-label="Clique no Botão"
             id='click-buttonfloat'
           >
             <svg
