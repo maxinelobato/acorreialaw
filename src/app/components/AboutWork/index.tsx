@@ -150,7 +150,7 @@ export default function AboutWork () {
                           {item.quote}
                         </p>
                       </blockquote>
-                      <div className='flex flex-col items-center gap-x-4 p-4 mt-6 bg-black/30 rounded-b-lg sm:flex-row'>
+                      <div className='flex flex-col border-t border-stone-200 items-center gap-x-4 p-4 mt-6 bg-black/5 rounded-b-lg sm:flex-row'>
                         <Image
                           src={item.avatar}
                           alt='Imagem'

@@ -18,7 +18,7 @@ export default function AboutAnderson () {
                     Direito Contratual
                   </span>
                 </h2>
-                <p className='pb-8 drop-shadow-lg text-stone-950 font-extrabold mx-auto mt-6 text-lg sm:break-after-all'>
+                <p className='pb-8 drop-shadow-lg text-lg text-gray-800 font-semibold mx-auto mt-6 sm:break-after-all'>
                   Adquirindo experiência ao longo dos mais de 10 anos seja em
                   escritórios de advocacia seja em empresas de pequeno ou de
                   grande porte com objetivo de atender seus clientes de forma

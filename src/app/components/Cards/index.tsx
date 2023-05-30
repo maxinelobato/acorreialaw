@@ -158,7 +158,7 @@ export default function Cards () {
             {features.map((item, idx) => (
               <li
                 key={idx}
-                className='bg-white/30 backdrop-blur-lg space-y-3 p-4 border rounded-lg drop-shadow-lg hover:transition-all'
+                className='bg-black/5 backdrop-blur-lg space-y-3 p-4 border rounded-lg drop-shadow-lg hover:transition-all'
               >
                 <a
                   href='https://api.whatsapp.com/send?phone=5511967413625&text=Ol%C3%A1%2C%20Dr.%20Anderson!%20Vim%20pelo%20site%20e%20Preciso%20de%20um%20Contrato.%20Podemos%20conversar%3F%20'

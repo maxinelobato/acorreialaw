@@ -100,9 +100,9 @@ export default function HowWeHelp () {
                         {item.icon}
                       </div>
                       <div>
-                        <h4 className='text-lg text-gray-800 font-semibold'>
+                        <h1 className='text-lg text-gray-800 font-semibold'>
                           {item.title}
-                        </h4>
+                        </h1>
                       </div>
                     </li>
                   ))}
