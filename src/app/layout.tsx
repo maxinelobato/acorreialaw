@@ -8,7 +8,8 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata = {
   title: 'Acorreialaw Advogados - Advocacia Especializada em Contratos',
   description:
-    'Somos uma equipe de advogados altamente qualificados e especializados em direito contratual. Com anos de experiência no campo, ajudamos inúmeros clientes a redigir, revisar e negociar uma ampla variedade de contratos em diversas indústrias.'
+    'Somos uma equipe de advogados altamente qualificados e especializados em direito contratual. Com anos de experiência no campo, ajudamos inúmeros clientes a redigir, revisar e negociar uma ampla variedade de contratos em diversas indústrias.',
+  googletest: 'NNWf8PjQL6I8sos5yFKHSHH1hA_6I70s7pXDyTCGjG0'
 }
 export default function RootLayout ({
   children
