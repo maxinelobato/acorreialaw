@@ -16,7 +16,7 @@ export default function RootLayout ({
   children: React.ReactNode
 }) {
   return (
-    <html lang='en'>
+    <html lang='pt-BR'>
       {/* Google Tag Manager - Global base code */}
       <Suspense>
         <Script
