@@ -160,23 +160,11 @@ export default function Cards () {
                 key={idx}
                 className='bg-black/5 backdrop-blur-lg space-y-3 p-4 border rounded-lg drop-shadow-lg hover:transition-all'
               >
-                <a
-                  href='https://api.whatsapp.com/send?phone=5511967413625&text=Ol%C3%A1%2C%20Dr.%20Anderson!%20Vim%20pelo%20site%20e%20Preciso%20de%20um%20Contrato.%20Podemos%20conversar%3F%20'
-                  rel='noopener noreferrer'
-                  target='_blank'
-                  className='group/item'
-                >
-                  <div className='flex items-center justify-between'>
-                    <div className='text-stone-950 pb-3'>{item.icon}</div>
-                    <div className='group/edit invisible group-hover/item:visible'>
-                      <ButtonMore />
-                    </div>
-                  </div>
-                  <h1 className='text-lg text-stone-800 font-semibold'>
-                    {item.title}
-                  </h1>
-                  <p>{item.desc}</p>
-                </a>
+                <div className='text-stone-950 pb-3'>{item.icon}</div>
+                <h1 className='text-lg text-stone-800 font-semibold'>
+                  {item.title}
+                </h1>
+                <p>{item.desc}</p>
               </li>
             ))}
           </ul>
