@@ -122,7 +122,7 @@ export default function AboutWork () {
 
   return (
     <>
-      <div className="hero bg-no-repeat bg-fixed bg-cover bg-[url('/img/googlereviewsmobilemagick.webp')] sm:bg-[url('/img/googlereviewsmagick.webp')] loading">
+      <div className="hero bg-no-repeat bg-fixed bg-cover bg-[url('/img/googlereviewsmobilemagick.webp')] sm:bg-[url('/img/googlereviewsmagick.webp')]">
         <div className='max-w-screen-xl mx-auto mb-6 px-4 py-8 md:px-8'>
           <div className='mx-auto text-center'>
             <div className='space-y-5 max-w-4xl mx-auto text-center px-4 py-8'>

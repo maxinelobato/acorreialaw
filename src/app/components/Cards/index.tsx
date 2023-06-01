@@ -1,5 +1,3 @@
-import ButtonMore from '../ButtonMore'
-
 export default function Cards () {
   const features = [
     {
