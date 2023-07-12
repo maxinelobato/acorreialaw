@@ -140,6 +140,7 @@ export default function AboutWork () {
                 alt='Imagem'
                 width={300}
                 height={300}
+                loading='lazy'
                 className='w-28 h-28 drop-shadow-lg'
               />
               </div>
