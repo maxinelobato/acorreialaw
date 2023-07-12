@@ -7,7 +7,7 @@ export default function AboutWork () {
     {
       icon: (
         <svg
-          className='w-9 h-9 text-stone-500'
+          className='w-9 h-9 text-white'
           viewBox='0 0 35 35'
           fill='none'
           xmlns='http://www.w3.org/2000/svg'
@@ -26,7 +26,7 @@ export default function AboutWork () {
     {
       icon: (
         <svg
-          className='w-9 h-9 text-stone-500'
+          className='w-9 h-9 text-white'
           viewBox='0 0 35 35'
           fill='none'
           xmlns='http://www.w3.org/2000/svg'
@@ -45,7 +45,7 @@ export default function AboutWork () {
     {
       icon: (
         <svg
-          className='w-9 h-9 text-stone-500'
+          className='w-9 h-9 text-white'
           viewBox='0 0 35 35'
           fill='none'
           xmlns='http://www.w3.org/2000/svg'
@@ -64,7 +64,7 @@ export default function AboutWork () {
     {
       icon: (
         <svg
-          className='w-9 h-9 text-stone-500'
+          className='w-9 h-9 text-white'
           viewBox='0 0 35 35'
           fill='none'
           xmlns='http://www.w3.org/2000/svg'
@@ -83,7 +83,7 @@ export default function AboutWork () {
     {
       icon: (
         <svg
-          className='w-9 h-9 text-stone-500'
+          className='w-9 h-9 text-white'
           viewBox='0 0 35 35'
           fill='none'
           xmlns='http://www.w3.org/2000/svg'
@@ -102,7 +102,7 @@ export default function AboutWork () {
     {
       icon: (
         <svg
-          className='w-9 h-9 text-stone-500'
+          className='w-9 h-9 text-white'
           viewBox='0 0 35 35'
           fill='none'
           xmlns='http://www.w3.org/2000/svg'
@@ -122,7 +122,7 @@ export default function AboutWork () {
 
   return (
     <>
-      <div className="hero bg-no-repeat bg-fixed bg-cover bg-[url('/img/googlereviewsmobilemagick.webp')] sm:bg-[url('/img/googlereviewsmagick.webp')]">
+      <div className='bg-gradient-to-b from-white via-stone-400 to-white'>
         <div className='max-w-screen-xl mx-auto mb-6 px-4 py-8 md:px-8'>
           <div className='mx-auto text-center'>
             <div className='space-y-5 max-w-4xl mx-auto text-center px-4 py-8'>
@@ -134,23 +134,32 @@ export default function AboutWork () {
                   sobre Acorreialaw?
                 </span>
               </h2>
+              <div className='flex flex-wrap items-center justify-center gap-4 xl:justify-center'>
+              <Image
+                src='/img/googlereviews.png'
+                alt='Imagem'
+                width={300}
+                height={300}
+                className='w-28 h-28 drop-shadow-lg'
+              />
+              </div>
               <GoogleReviews />
             </div>
             <div className='mb-6'>
-              <ul className='grid items-center gap-6 grid-cols-2 sm:grid-cols-2 lg:grid-cols-3'>
+              <ul className='grid items-center gap-6 grid-cols-1 sm:grid-cols-1 lg:grid-cols-3'>
                 {testimonials.map((item, idx) => (
                   <li
                     key={idx}
-                    className='bg-white/30 backdrop-blur-sm rounded-xl border shadow-lg'
+                    className='bg-black/30 backdrop-blur-sm rounded-xl border border-stone-400 shadow-lg'
                   >
                     <div className='p-4'>{item.icon}</div>
                     <figure>
                       <blockquote>
-                        <p className='text-stone-950 font-semibold px-4 py-1 text-sm sm:break-after-all sm:text-lg'>
+                        <p className='text-white font-semibold px-4 py-1 text-sm sm:break-after-all sm:text-lg'>
                           {item.quote}
                         </p>
                       </blockquote>
-                      <div className='flex flex-col border-t border-stone-200 items-center gap-x-4 p-4 mt-6 bg-black/5 rounded-b-lg sm:flex-row'>
+                      <div className='flex flex-col border-t border-stone-200 items-center gap-x-4 p-4 mt-6 bg-black/60 rounded-b-lg sm:flex-row'>
                         <Image
                           src={item.avatar}
                           alt='Imagem'
@@ -159,7 +168,7 @@ export default function AboutWork () {
                           className='w-8 h-8 rounded-full drop-shadow-lg sm:w-8 sm:h-8'
                         />
                         <div>
-                          <span className='text-stone-900 font-semibold text-sm sm:break-after-all sm:text-lg'>
+                          <span className='text-white font-semibold text-sm sm:break-after-all sm:text-lg'>
                             {item.name}
                           </span>
                         </div>

@@ -51,22 +51,17 @@ export default function Hero () {
   return (
     <>
       <div className="hero bg-no-repeat bg-cover bg-[url('https://images.unsplash.com/photo-1603796846097-bee99e4a601f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80')] loading">
-        <div className='hero-overlay bg-gradient-to-tr from-white'>
+        <div className='hero-overlay bg-gradient-to-t from-white to-50%'>
           <Navbar />
           <section>
             <div className='max-w-screen-xl mx-auto px-4 py-4 gap-12 text-gray-600 md:px-8'>
               <div className='space-y-5 max-w-4xl mx-auto text-center'>
                 <h1 className='py-4 text-4xl text-white font-extrabold mx-auto md:text-5xl'>
-                  Elabore o contrato do seu negócio{' '}
-                  <span className='text-transparent bg-clip-text bg-gradient-to-r from-stone-950 to-stone-800'>
-                    com confiança e experiência jurídica na Acorreialaw
-                  </span>
+                  Precisa de um contrato para o seu Negócio?
                 </h1>
-                <p className='text-stone-800 max-w-2xl mx-auto'>
-                  Seja você um empreendedor iniciante, um proprietário de
-                  pequena empresa ou um profissional autônomo, contratos bem
-                  redigidos são a base para proteger seus interesses e garantir
-                  transações comerciais seguras.
+                <p className='text-white text-sm font-bold max-w-2xl mx-auto md:text-lg'>
+                  Elabore o contrato do seu negócio com confiança e experiência
+                  jurídica.
                 </p>
                 <div className='py-4 items-center justify-center gap-x-3 space-y-3 sm:flex sm:space-y-0'>
                   <ButtonHero />
@@ -76,7 +71,7 @@ export default function Hero () {
                 {features.map((item, idx) => (
                   <div
                     key={idx}
-                    className='flex text-stone-800 items-center gap-x-2 text-sm'
+                    className='flex text-stone-900 items-center gap-x-2 text-sm'
                   >
                     {item.icon}
                     {item.name}
