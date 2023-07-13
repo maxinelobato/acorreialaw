@@ -136,7 +136,7 @@ export default function AboutWork () {
               </h2>
               <div className='flex flex-wrap items-center justify-center gap-4 xl:justify-center'>
               <Image
-                src='/img/google.png'
+                src='/img/googleexcelente.png'
                 alt='Imagem'
                 width={300}
                 height={300}
